@@ -1,0 +1,16 @@
+{
+    "name": "vasilyvp/test",
+    "description": "php test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vasily",
+            "email": "31712700+VasilyVP@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "vlucas/phpdotenv": "^5.2",
+        "monolog/monolog": "^2.1"
+    }
+}

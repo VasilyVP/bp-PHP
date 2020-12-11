@@ -1,0 +1,19 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule .* '' [L]
+
+## No empty catalog
+#Options -Indexes
+
+## Access rules section
+#<Files *.*>
+#    Order Deny,Allow
+#    Deny from all
+#</Files>
+
+#Match
+#<Files index.php>
+#    Order Allow,Deny
+#    Allow from all
+#</Files>
